@@ -1,0 +1,52 @@
+Calculator — Working & Flow
+Overview
+
+A simple calculator that takes user input, processes mathematical operations, and displays the result.
+
+Flow
+User Input
+    ↓
+Button/Event Handler
+    ↓
+Update Calculator State
+    ↓
+Process Operation
+    ↓
+Calculate Result
+    ↓
+Update Display
+
+How It Works
+Input — User enters numbers and operators.
+Event Handling — Button clicks are captured.
+State — Numbers and selected operator are stored.
+Calculation — The appropriate operation is performed.
+Result — The calculated value is generated.
+Display — The result is shown to the user.
+Clear — Calculator state can be reset for a new calculation.
+Example
+25 × 4 =
+   ↓
+25 × 4
+   ↓
+100
+   ↓
+Display: 100
+
+Main Components
+HTML       → Calculator structure
+CSS        → Styling and layout
+JavaScript → Logic, events, state & calculations
+
+Basic Logic
+Enter Number
+     ↓
+Select Operator
+     ↓
+Enter Number
+     ↓
+Press "="
+     ↓
+Calculate
+     ↓
+Show Result

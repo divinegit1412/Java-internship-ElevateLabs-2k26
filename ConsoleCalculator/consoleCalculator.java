@@ -4,7 +4,7 @@ public class consoleCalculator {
 
     public static void main(String[] args) {
 
-        System.out.println("WELCOME TO MRADUL'S CALCULATOR");
+        System.out.println("WELCOME TO MRADUL'S ACALCULATOR");
         System.out.println("For Addition type       : add");
         System.out.println("For Subtraction type    : sub");
         System.out.println("For Multiplication type : mult");
