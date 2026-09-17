@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: shortner
+  datasource:
+    url: jdbc:postgresql://ep-wandering-star-b50ozjck-pooler.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require
+    username: neondb_owner
+    password: npg_XWBnvA0YM6It
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8080
