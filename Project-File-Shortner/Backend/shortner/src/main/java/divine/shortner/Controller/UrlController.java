@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://divinelabs-shortner-git-main-divine-6424.vercel.app")
 @RestController 
 @RequestMapping ("/divineLinks")
 public class UrlController {
@@ -44,7 +44,7 @@ public class UrlController {
         return ResponseEntity.ok(shortUrl);
     }
 
-    @GetMapping("/shorturl/{urlCode}")
+    @GetMapping("/{urlCode}")
     public void redirectToShortUrl(@PathVariable String urlCode ,HttpServletResponse response)throws IOException{
         String originalUrl = service.getOriginalUrl(urlCode);
        response.sendRedirect(originalUrl);
