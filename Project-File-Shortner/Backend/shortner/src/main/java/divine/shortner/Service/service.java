@@ -33,7 +33,7 @@ public class service {
                 String secretCode = encodeBase62(mapping.getId());
 
                 mapping.setShortCode(secretCode);
-                mapping.setShortUrl("https://java-internship-elevatelabs-2k26.onrender.com/" + secretCode);
+                mapping.setShortUrl("https://java-internship-elevatelabs-2k26.onrender.com/divineLinks/" + secretCode);
 
                repository.save(mapping);
 
