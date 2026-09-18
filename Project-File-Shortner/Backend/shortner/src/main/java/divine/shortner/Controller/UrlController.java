@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "https://divinelabs-shortner-git-main-divine-6424.vercel.app")
+@CrossOrigin(origins = "*")
 @RestController 
 @RequestMapping ("/divineLinks")
 public class UrlController {
