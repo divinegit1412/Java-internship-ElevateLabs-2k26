@@ -13,7 +13,7 @@ const Home = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8080/divineLinks/shorten', {
+      const response = await fetch('https://java-internship-elevatelabs-2k26.onrender.com/divineLinks/shorten', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
